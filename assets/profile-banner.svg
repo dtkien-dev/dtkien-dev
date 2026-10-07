@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" fill="none" role="img" aria-labelledby="title description">
-  <title id="title">Doan Trung Kien — Java Software Engineer</title>
-  <desc id="description">A cream and forest-green profile banner for Doan Trung Kien, a Java Software Engineer based in Vietnam.</desc>
+  <title id="title">Doan Trung Kien — Java Backend Engineer</title>
+  <desc id="description">A cream and forest-green profile banner for Doan Trung Kien, a Java Backend Engineer based in Vietnam.</desc>
   <rect width="1200" height="340" rx="16" fill="#F5F4EE"/>
   <path d="M810 0H1184C1192.84 0 1200 7.163 1200 16V324C1200 332.837 1192.84 340 1184 340H810V0Z" fill="#E7EBE1"/>
   <path d="M56 58H86" stroke="#315C48" stroke-width="3"/>
   <text x="98" y="64" fill="#315C48" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="2.5">DEVELOPER PROFILE</text>
   <text x="54" y="151" fill="#23332B" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700" letter-spacing="-2">Doan Trung Kien</text>
-  <text x="58" y="199" fill="#526358" font-family="Arial, Helvetica, sans-serif" font-size="26">Java Software Engineer</text>
+  <text x="58" y="199" fill="#526358" font-family="Arial, Helvetica, sans-serif" font-size="26">Java Backend Engineer</text>
   <path d="M58 234H746" stroke="#D7DDD2"/>
   <text x="58" y="275" fill="#315C48" font-family="monospace" font-size="17">JAVA / SPRING BOOT</text>
   <text x="590" y="275" fill="#526358" font-family="Arial, Helvetica, sans-serif" font-size="17">Based in Vietnam</text>

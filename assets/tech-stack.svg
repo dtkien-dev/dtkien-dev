@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" fill="none" role="img" aria-labelledby="title description">
 <title id="title">Doan Trung Kien — Technical dashboard</title>
-<desc id="description">Six panels summarize backend, data, integration, delivery, engineering and AI development technologies listed on the LinkedIn profile.</desc>
+<desc id="description">Six panels summarize backend, data, integration, delivery, testing and AI development technologies from the LinkedIn profile and user-confirmed testing skills.</desc>
 <rect width="1200" height="680" rx="16" fill="#F5F4EE"/>
 <text x="40" y="46" font-family="monospace" font-size="16" letter-spacing="2" fill="#526358">TECHNICAL DASHBOARD</text>
 <text x="1160" y="46" text-anchor="end" font-family="monospace" font-size="14" fill="#526358">BACKEND / SYSTEMS / TOOLING</text>
@@ -25,10 +25,10 @@
 <text x="634" y="386" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#526358">Maven · GitLab · Jenkins · Argo CD</text>
 <text x="634" y="415" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#526358">Kubernetes · Rancher · k9s · Docker (Basic)</text>
 <rect x="40" y="462" width="550" height="172" rx="12" fill="#FFFFFF" stroke="#D7DDD2"/>
-<text x="64" y="495" font-family="monospace" font-size="14" font-weight="400" fill="#526358">05 / ENGINEERING</text>
-<text x="64" y="541" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#23332B">Quality &amp; operations</text>
-<text x="64" y="578" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#526358">Clean Architecture · SOLID</text>
-<text x="64" y="607" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#526358">Grafana · LinearB · Log analysis</text>
+<text x="64" y="495" font-family="monospace" font-size="14" font-weight="400" fill="#526358">05 / TESTING &amp; QUALITY</text>
+<text x="64" y="541" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#23332B">Backend verification</text>
+<text x="64" y="578" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#526358">JUnit · Mockito · Integration tests</text>
+<text x="64" y="607" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#526358">Clean Architecture · SOLID</text>
 <rect x="610" y="462" width="550" height="172" rx="12" fill="#E7EBE1" stroke="#D7DDD2"/>
 <text x="634" y="495" font-family="monospace" font-size="14" font-weight="400" fill="#526358">06 / AI DEVELOPMENT</text>
 <text x="634" y="541" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#23332B">Developer tooling</text>

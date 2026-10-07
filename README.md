@@ -1,35 +1,41 @@
-![Doan Trung Kien — Java Software Engineer based in Vietnam](assets/profile-banner.svg)
+![Doan Trung Kien — Java Backend Engineer based in Vietnam](assets/profile-banner.svg)
 
 <p align="center">
-  <a href="#introduction">Introduction</a> &nbsp; / &nbsp;
-  <a href="#tech-stack">Tech stack</a> &nbsp; / &nbsp;
-  <a href="#github-dashboard">GitHub dashboard</a> &nbsp; / &nbsp;
-  <a href="#connect">Connect</a>
+  <a href="#user-content-introduction">Introduction</a> &nbsp; / &nbsp;
+  <a href="#user-content-tech-stack">Tech stack</a> &nbsp; / &nbsp;
+  <a href="#user-content-github-dashboard">GitHub dashboard</a> &nbsp; / &nbsp;
+  <a href="#user-content-connect">Connect</a>
 </p>
 
 ## Introduction
 
 I'm **Doan Trung Kien**, a **Java Backend Engineer** based in Vietnam. I develop backend services with **Java 21, Spring Boot, and Vert.x**, integrate REST APIs, and build asynchronous workflows with RabbitMQ.
 
-I enjoy improving service performance through Redis caching and SQL query tuning. My technical interests include distributed systems, event-driven architecture, and cloud-native technologies.
+I use **JUnit, Mockito, and integration tests** to verify backend behavior, and improve service performance through Redis caching and SQL query tuning. My technical interests include distributed systems, event-driven architecture, and cloud-native technologies.
 
 [Explore my repositories](https://github.com/dtkien-dev?tab=repositories) · [Connect on LinkedIn](https://www.linkedin.com/in/doantrungkien10082002/)
 
 ## Tech stack
 
-![Technical dashboard covering backend, data, messaging, delivery, observability and AI development tools](assets/tech-stack.svg)
+![Technical dashboard covering backend, data, messaging, delivery, testing and AI development tools](assets/tech-stack.svg)
+
+<details>
+<summary>View the full technology stack</summary>
 
 | Area | Technologies & tools |
 | :--- | :--- |
 | **Languages** | Java 21 · Go |
 | **Backend & frameworks** | Spring Boot · Spring Data · Vert.x · Jmix · Backbase |
 | **APIs & identity** | REST APIs · OpenAPI · Keycloak |
+| **Testing** | JUnit · Mockito · Integration tests |
 | **Data & caching** | PostgreSQL · MySQL · Redis · Elasticsearch |
 | **Messaging & discovery** | RabbitMQ · Apache Kafka · ActiveMQ · Eureka |
 | **Build & delivery** | Maven · Git · GitLab · GitFlow · Jenkins · Argo CD |
 | **Containers & operations** | Kubernetes · Rancher · k9s · Docker (Basic) |
 | **Observability & engineering insights** | Grafana · LinearB |
 | **AI-assisted development** | OpenAI Codex · Claude Code · Kiro · Prompt Engineering |
+
+</details>
 
 **Engineering practices:** Clean Architecture, SOLID principles, asynchronous processing, caching strategies, SQL pagination and query tuning, production troubleshooting, and log analysis.
 
