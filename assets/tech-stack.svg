@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" fill="none" role="img" aria-labelledby="title description">
+<title id="title">Doan Trung Kien — Technical dashboard</title>
+<desc id="description">Six panels summarize backend, data, integration, delivery, engineering and AI development technologies listed on the LinkedIn profile.</desc>
+<rect width="1200" height="680" rx="16" fill="#F5F4EE"/>
+<text x="40" y="46" font-family="monospace" font-size="16" letter-spacing="2" fill="#526358">TECHNICAL DASHBOARD</text>
+<text x="1160" y="46" text-anchor="end" font-family="monospace" font-size="14" fill="#526358">BACKEND / SYSTEMS / TOOLING</text>
+<rect x="40" y="78" width="550" height="172" rx="12" fill="#FFFFFF" stroke="#D7DDD2"/>
+<text x="64" y="111" font-family="monospace" font-size="14" font-weight="400" fill="#526358">01 / BACKEND</text>
+<text x="64" y="157" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#23332B">Java 21 / Spring Boot</text>
+<text x="64" y="194" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#526358">Vert.x · Spring Data · Go</text>
+<text x="64" y="223" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#526358">Jmix · Backbase</text>
+<rect x="610" y="78" width="550" height="172" rx="12" fill="#E7EBE1" stroke="#D7DDD2"/>
+<text x="634" y="111" font-family="monospace" font-size="14" font-weight="400" fill="#526358">02 / DATA</text>
+<text x="634" y="157" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#23332B">PostgreSQL / Redis</text>
+<text x="634" y="194" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#526358">MySQL · Elasticsearch</text>
+<text x="634" y="223" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#526358">Caching · SQL query tuning</text>
+<rect x="40" y="270" width="550" height="172" rx="12" fill="#FFFFFF" stroke="#D7DDD2"/>
+<text x="64" y="303" font-family="monospace" font-size="14" font-weight="400" fill="#526358">03 / INTEGRATION</text>
+<text x="64" y="349" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#23332B">Messaging &amp; APIs</text>
+<text x="64" y="386" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#526358">RabbitMQ · Kafka · ActiveMQ</text>
+<text x="64" y="415" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#526358">REST · OpenAPI · Keycloak · Eureka</text>
+<rect x="610" y="270" width="550" height="172" rx="12" fill="#E7EBE1" stroke="#D7DDD2"/>
+<text x="634" y="303" font-family="monospace" font-size="14" font-weight="400" fill="#526358">04 / DELIVERY</text>
+<text x="634" y="349" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#23332B">Build &amp; deploy</text>
+<text x="634" y="386" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#526358">Maven · GitLab · Jenkins · Argo CD</text>
+<text x="634" y="415" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#526358">Kubernetes · Rancher · k9s · Docker (Basic)</text>
+<rect x="40" y="462" width="550" height="172" rx="12" fill="#FFFFFF" stroke="#D7DDD2"/>
+<text x="64" y="495" font-family="monospace" font-size="14" font-weight="400" fill="#526358">05 / ENGINEERING</text>
+<text x="64" y="541" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#23332B">Quality &amp; operations</text>
+<text x="64" y="578" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#526358">Clean Architecture · SOLID</text>
+<text x="64" y="607" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#526358">Grafana · LinearB · Log analysis</text>
+<rect x="610" y="462" width="550" height="172" rx="12" fill="#E7EBE1" stroke="#D7DDD2"/>
+<text x="634" y="495" font-family="monospace" font-size="14" font-weight="400" fill="#526358">06 / AI DEVELOPMENT</text>
+<text x="634" y="541" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#23332B">Developer tooling</text>
+<text x="634" y="578" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#526358">OpenAI Codex · Claude Code · Kiro</text>
+<text x="634" y="607" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" fill="#526358">Prompt Engineering</text>
+</svg>
