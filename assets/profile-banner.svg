@@ -1,20 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" fill="none" role="img" aria-labelledby="title description">
   <title id="title">Doan Trung Kien — Java Backend Engineer</title>
-  <desc id="description">A cream and forest-green profile banner for Doan Trung Kien, a Java Backend Engineer based in Vietnam.</desc>
-  <rect width="1200" height="340" rx="16" fill="#F5F4EE"/>
-  <path d="M810 0H1184C1192.84 0 1200 7.163 1200 16V324C1200 332.837 1192.84 340 1184 340H810V0Z" fill="#E7EBE1"/>
-  <path d="M56 58H86" stroke="#315C48" stroke-width="3"/>
-  <text x="98" y="64" fill="#315C48" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="2.5">DEVELOPER PROFILE</text>
-  <text x="54" y="151" fill="#23332B" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700" letter-spacing="-2">Doan Trung Kien</text>
-  <text x="58" y="199" fill="#526358" font-family="Arial, Helvetica, sans-serif" font-size="26">Java Backend Engineer</text>
-  <path d="M58 234H746" stroke="#D7DDD2"/>
-  <text x="58" y="275" fill="#315C48" font-family="monospace" font-size="17">JAVA / SPRING BOOT</text>
-  <text x="590" y="275" fill="#526358" font-family="Arial, Helvetica, sans-serif" font-size="17">Based in Vietnam</text>
-  <rect x="870" y="70" width="270" height="200" rx="12" fill="#F5F4EE" stroke="#C8D2C4"/>
-  <path d="M870 108H1140" stroke="#C8D2C4"/>
-  <circle cx="891" cy="89" r="4" fill="#315C48"/>
-  <circle cx="907" cy="89" r="4" fill="#99AF9B"/>
-  <circle cx="923" cy="89" r="4" fill="#C8D2C4"/>
-  <path d="M950 155L920 181L950 207M1060 155L1090 181L1060 207M1023 142L987 220" stroke="#315C48" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M898 245H938M946 245H980" stroke="#99AF9B" stroke-width="3" stroke-linecap="round"/>
+  <desc id="description">Doan Trung Kien, Java Backend Engineer in Vietnam. An animated terminal illustrates building backend services.</desc>
+  <style>
+    .terminal { animation: float 6s ease-in-out infinite; }
+    .cursor { animation: blink 1.4s steps(2, jump-none) infinite; }
+    .signal { animation: signal 4s ease-in-out infinite; }
+    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+    @keyframes blink { to { opacity: 0; } }
+    @keyframes signal { 0%, 100% { opacity: .35; } 50% { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) { .terminal, .cursor, .signal { animation: none; } }
+  </style>
+  <rect class="surface" width="1200" height="340" rx="16" fill="#0D1117"/>
+  <path class="side" d="M810 0H1184C1192.84 0 1200 7.163 1200 16V324C1200 332.837 1192.84 340 1184 340H810V0Z" fill="#161B22"/>
+  <path d="M56 58H86" stroke="#67C7D4" stroke-width="3"/>
+  <text x="98" y="64" fill="#67C7D4" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700" letter-spacing="2.5">DEVELOPER PROFILE</text>
+  <text x="54" y="151" fill="#E6EDF3" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700" letter-spacing="-2">Doan Trung Kien</text>
+  <text x="58" y="199" fill="#9DA7B3" font-family="Arial, Helvetica, sans-serif" font-size="26">Java Backend Engineer</text>
+  <path d="M58 234H746" stroke="#30363D"/>
+  <text x="58" y="275" fill="#67C7D4" font-family="monospace" font-size="17">JAVA / SPRING BOOT</text>
+  <text x="590" y="275" fill="#9DA7B3" font-family="Arial, Helvetica, sans-serif" font-size="17">Based in Vietnam</text>
+  <g class="terminal">
+    <rect x="840" y="60" width="320" height="220" rx="12" fill="#0D1117" stroke="#30363D"/>
+    <path d="M840 98H1160" stroke="#9DA7B3"/>
+    <circle cx="861" cy="79" r="4" fill="#67C7D4"/>
+    <circle cx="877" cy="79" r="4" fill="#9DA7B3"/>
+    <circle cx="893" cy="79" r="4" fill="#9DA7B3"/>
+    <g font-family="monospace" font-size="15">
+      <text x="862" y="130" fill="#9DA7B3">~/backend</text>
+      <text x="862" y="164" fill="#E6EDF3">$ build reliable services</text>
+      <text x="862" y="199" fill="#67C7D4">Java → Spring → APIs</text>
+      <text x="862" y="249" fill="#9DA7B3">$</text>
+    </g>
+    <rect class="cursor" x="881" y="236" width="9" height="16" fill="#67C7D4"/>
+    <circle class="signal" cx="1136" cy="79" r="4" fill="#67C7D4"/>
+  </g>
 </svg>

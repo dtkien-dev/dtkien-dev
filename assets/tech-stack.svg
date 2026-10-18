@@ -1,9 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" fill="none" role="img" aria-labelledby="title description">
 <title id="title">Doan Trung Kien — Technical dashboard</title>
 <desc id="description">Six panels summarize backend, data, integration, delivery, testing and AI development technologies from the LinkedIn profile and user-confirmed testing skills.</desc>
+<style>
+  .packet { animation: travel 5s ease-in-out infinite; }
+  .packet-delayed { animation-delay: -2.5s; }
+  @keyframes travel { 0% { transform: translateX(0); opacity: 0; } 10%, 90% { opacity: 1; } 100% { transform: translateX(1040px); opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { .packet { animation: none; } }
+</style>
 <rect width="1200" height="680" rx="16" fill="#F5F4EE"/>
 <text x="40" y="46" font-family="monospace" font-size="16" letter-spacing="2" fill="#526358">TECHNICAL DASHBOARD</text>
 <text x="1160" y="46" text-anchor="end" font-family="monospace" font-size="14" fill="#526358">BACKEND / SYSTEMS / TOOLING</text>
+<path d="M40 62H1160" stroke="#D7DDD2"/>
+<rect class="packet" x="40" y="60" width="48" height="4" rx="2" fill="#315C48"/>
+<rect class="packet packet-delayed" x="40" y="60" width="48" height="4" rx="2" fill="#315C48"/>
 <rect x="40" y="78" width="550" height="172" rx="12" fill="#FFFFFF" stroke="#D7DDD2"/>
 <text x="64" y="111" font-family="monospace" font-size="14" font-weight="400" fill="#526358">01 / BACKEND</text>
 <text x="64" y="157" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" fill="#23332B">Java 21 / Spring Boot</text>

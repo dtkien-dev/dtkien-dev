@@ -1,0 +1,60 @@
+name: Update profile activity
+
+on:
+  schedule:
+    - cron: '23 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/profile-snake.yml', 'scripts/**']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-snake
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test and generate statistics
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python -m unittest discover -s scripts -p 'test_*.py'
+          python scripts/update-profile-stats.py
+      - name: Generate light and dark animations
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          npx --yes generate-snake-animation@3.5.0 \
+            --github_user=dtkien-dev \
+            --output='assets/github-snake.svg?color_snake=%23167D8D' \
+            --output='assets/github-snake-dark.svg?palette=github-dark&color_snake=%2367C7D4'
+      - name: Verify SVG outputs
+        run: |
+          python - <<'PY'
+          import xml.etree.ElementTree as ET
+          for path in ('assets/github-snake.svg', 'assets/github-snake-dark.svg', 'assets/github-stats.svg', 'assets/github-stats-mobile.svg'):
+              assert ET.parse(path).getroot().tag == '{http://www.w3.org/2000/svg}svg', path
+          PY
+      - name: Commit updated animations
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/github-snake.svg assets/github-snake-dark.svg assets/github-stats.svg assets/github-stats-mobile.svg
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: update profile activity'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

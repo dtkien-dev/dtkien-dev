@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="310" viewBox="0 0 640 310" role="img" aria-labelledby="title desc">
+  <title id="title">Doan Trung Kien — Java Backend Engineer</title>
+  <desc id="desc">Java Backend Engineer based in Vietnam, with an animated terminal cursor.</desc>
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; }
+    .cursor { animation: blink 1.4s steps(2, jump-none) infinite; }
+    @keyframes blink { to { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .cursor { animation: none; } }
+  </style>
+  <rect width="640" height="310" rx="16" fill="#0D1117"/>
+  <path d="M32 43H55" stroke="#67C7D4" stroke-width="3"/>
+  <text x="68" y="49" font-size="16" letter-spacing="2" fill="#67C7D4">DEVELOPER PROFILE</text>
+  <text x="30" y="117" font-size="48" font-weight="700" letter-spacing="-1.5" fill="#E6EDF3">Doan Trung Kien</text>
+  <text x="32" y="161" font-size="25" fill="#9DA7B3">Java Backend Engineer</text>
+  <path d="M32 192H608" stroke="#30363D"/>
+  <text x="32" y="225" font-size="18" fill="#67C7D4">JAVA / SPRING BOOT</text>
+  <text x="32" y="275" font-size="18" fill="#9DA7B3">Based in Vietnam</text>
+  <rect class="cursor" x="594" y="255" width="12" height="20" fill="#67C7D4"/>
+</svg>
